@@ -13,9 +13,9 @@
 brew install nmap
 ```
 **Referencias**
-- ###### :bookmark:  https://nmap.org
-- ###### :bookmark:  https://nmap.org/man/pt_BR/index.html
-- ###### :bookmark:  https://pplware.sapo.pt/tutoriais/nmap-5-exemplos-de-como-usar-este-poderoso-scanner-de-rede/
+- :bookmark:  https://nmap.org
+- :bookmark:  https://nmap.org/man/pt_BR/index.html
+- :bookmark:  https://pplware.sapo.pt/tutoriais/nmap-5-exemplos-de-como-usar-este-poderoso-scanner-de-rede/
 
 
 ## **Nikto**
