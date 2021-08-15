@@ -3,10 +3,8 @@
 
 **Exemplos de uso:**
   1. Saber quais os endereços IP "ativos" numa determinada rede: 
-    
-    -sP (Scan usando Ping)
-    
-      *Esta opção diz ao Nmap para somente executar um scan usando o ping (descoberta de hosts), e então mostrar os hosts disponíveis que responderam ao scan. Nenhum teste adicional (tais como escaneamento de portas e deteção de SO) é executado.*
+    - -sP (Scan usando Ping)
+    - *Esta opção diz ao Nmap para somente executar um scan usando o ping (descoberta de hosts), e então mostrar os hosts disponíveis que responderam ao scan. Nenhum teste adicional (tais como escaneamento de portas e deteção de SO) é executado.*
 
   **Comando**
   ```
