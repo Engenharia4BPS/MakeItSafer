@@ -44,8 +44,8 @@ brew install recon-ng
 ```
 
 ## **The Harvester**
-  ###### - :bookmark:  https://github.com/laramies/theHarvester
-  - :bookmark:  https://tools.kali.org/information-gathering/theharvester
+- :bookmark:  https://github.com/laramies/theHarvester
+- :bookmark:  https://tools.kali.org/information-gathering/theharvester
 
 *The Harvester is an information-gathering application that serves to use publicly available information and databases to obtain information, including domains, 
 hostnames, emails, employee directory info--anything that establishes putting together a holistic picture of the target.*
