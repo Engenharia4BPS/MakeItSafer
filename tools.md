@@ -13,19 +13,31 @@
 brew install nmap
 ```
 **Referencias**
-###### - :bookmark:  https://nmap.org
-###### - :bookmark:  https://nmap.org/man/pt_BR/index.html
-######- :bookmark:  https://pplware.sapo.pt/tutoriais/nmap-5-exemplos-de-como-usar-este-poderoso-scanner-de-rede/
+- :bookmark:  https://nmap.org
+- :bookmark:  https://nmap.org/man/pt_BR/index.html
+- :bookmark:  https://pplware.sapo.pt/tutoriais/nmap-5-exemplos-de-como-usar-este-poderoso-scanner-de-rede/
+
 
 
 ## **Nikto**
-###### :bookmark:  https://github.com/sullo/nikto
-
 *Nikto is a vulnerability scanner used to inspect web server configurations to detect thousands of potential issues, including misconfigurations, out-of-date patches, and version-specific problems that could otherwise allow attackers to gain unauthorized access.*
 
+**Exemplos de uso:**
+  1. Varredura de um site na porta padrão 80: `nikto -h www.webbsite.com`
+  2. Varredura de um site na porta especifica: `nikto -h www.webbsite.com -p 443`
+  3. Varredura de um site em um grupo de portas: `nikto -h www.webbsite.com -p 80,88,443`
+
+**Instalar no OSX**
 ```
 brew install nikto
 ```
+
+**Referencias**
+- :bookmark:  https://cirt.net/Nikto2
+- :bookmark:  https://github.com/sullo/nikto
+- :bookmark:  https://www.nanoshots.com.br/2015/09/nikto-um-poderoso-scanner-de-servidores.html
+
+
 
 ## **SQLmap**
 ###### :bookmark:  https://sqlmap.org
