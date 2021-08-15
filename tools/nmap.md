@@ -3,8 +3,15 @@
 
 **Exemplos de uso:**
   1. Saber quais os endereços IP "ativos" numa determinada rede: 
-  ```nmap -sP 192.168.100.0/24```
-  2. Saber quais os portas abertas de uma máquina: `nmap -sT 192.168.100.1`
+  ```
+  nmap -sP 192.168.100.0/24
+  ```
+  
+  2. Saber quais os portas abertas de uma máquina: 
+  ```
+  nmap -sT 192.168.100.1
+  ```
+
   3. Saber se um porta específico está aberto: `nmap -p 80 192.168.100.1`
   4. Saber o sistema operacional de uma determinada máquina: `nmap -o 192.168.100.1`
   5. Inventário de todas as máquinas da rede: `nmap -sS -O -T3 -oA invent 192.168.100.0/24`
