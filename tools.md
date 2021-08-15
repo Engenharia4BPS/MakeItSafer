@@ -16,14 +16,23 @@ brew install nmap
 brew install nikto
 ```
 
-SQLmap
-SQLmap is an open source application that allows for the detection and exploitation of SQL injection vulnerabilities in database servers using structured query language. The tool can also be used to automate attacks, as well.
+## **SQLmap**
+###### 
 
+*SQLmap is an open source application that allows for the detection and exploitation of SQL injection vulnerabilities in database servers using structured query language. The tool can also be used to automate attacks, as well.*
+
+```
 brew install sqlmap
-Zed Attack Proxy (ZAP)
-Another open source security scanner, OWASP's ZAP tool is used to test a web application's security though a multitude of tools, including a proxy server to capture encrypted and unencrypted traffic, Fuzzer, and much more.
+```
 
+## **Zed Attack Proxy (ZAP)**
+###### 
+
+*Another open source security scanner, OWASP's ZAP tool is used to test a web application's security though a multitude of tools, including a proxy server to capture encrypted and unencrypted traffic, Fuzzer, and much more.*
+
+```
 brew install caskroom/cask/brew-caskbrew cask install owasp-zap
+```
 
 Recon-ng
 This reconnaissance framework is designed to conduct open source information gathering that leverages community-supported modules that provide additional resources to search, such as social media networks, using powerful (and secure) API tools. The data obtained can then be leveraged in other complementary tools to test vulnerabilities or exploit them.
