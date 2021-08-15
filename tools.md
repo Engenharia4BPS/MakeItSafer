@@ -1,11 +1,16 @@
 ## **Nmap**
-###### :bookmark:  https://nmap.org
-
 *Nmap is a network discovery and port-scanning utility that allows for the identification and fingerprinting of devices across networks, using a large number of syntaxes to aid in detecting services and open ports.*
 
+**Exemplo de usos:**
+  1. Considere que pretende saber quais os endereços IP "ativos" numa determinada rede de dados. Comando `nmap -sP 192.168.100.0/24`
+  2. 
+  
+**Instalar no OSX**
 ```
 brew install nmap
 ```
+- ###### :bookmark:  https://nmap.org
+
 
 ## **Nikto**
 ###### :bookmark:  https://github.com/sullo/nikto
