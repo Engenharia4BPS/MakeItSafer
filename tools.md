@@ -3,12 +3,19 @@
 
 *Nmap is a network discovery and port-scanning utility that allows for the identification and fingerprinting of devices across networks, using a large number of syntaxes to aid in detecting services and open ports.*
 
-```brew install nmap```
+```
+brew install nmap
+```
 
-Nikto
-Nikto is a vulnerability scanner used to inspect web server configurations to detect thousands of potential issues, including misconfigurations, out-of-date patches, and version-specific problems that could otherwise allow attackers to gain unauthorized access.
+## **Nikto**
+###### https://github.com/sullo/nikto
 
+*Nikto is a vulnerability scanner used to inspect web server configurations to detect thousands of potential issues, including misconfigurations, out-of-date patches, and version-specific problems that could otherwise allow attackers to gain unauthorized access.*
+
+```
 brew install nikto
+```
+
 SQLmap
 SQLmap is an open source application that allows for the detection and exploitation of SQL injection vulnerabilities in database servers using structured query language. The tool can also be used to automate attacks, as well.
 
