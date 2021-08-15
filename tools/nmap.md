@@ -2,9 +2,9 @@
 *Nmap é um utilitário de descoberta de rede e varredura de portas que permite a identificação e impressão digital de dispositivos em redes, usando um grande número de sintaxes para auxiliar na detecção de serviços e portas abertas.*
 
 **Exemplos de uso:**
-  1. Saber quais os endereços IP "ativos" numa determinada rede: 
-    - -sP (Scan usando Ping)
-    - *Esta opção diz ao Nmap para somente executar um scan usando o ping (descoberta de hosts), e então mostrar os hosts disponíveis que responderam ao scan. Nenhum teste adicional (tais como escaneamento de portas e deteção de SO) é executado.*
+1. Saber quais os endereços IP "ativos" numa determinada rede: 
+- -sP (Scan usando Ping)
+- *Esta opção diz ao Nmap para somente executar um scan usando o ping (descoberta de hosts), e então mostrar os hosts disponíveis que responderam ao scan. Nenhum teste adicional (tais como escaneamento de portas e deteção de SO) é executado.*
 
   **Comando**
   ```
