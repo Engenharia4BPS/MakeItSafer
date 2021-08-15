@@ -17,7 +17,7 @@ brew install nikto
 ```
 
 ## **SQLmap**
-###### 
+###### https://sqlmap.org
 
 *SQLmap is an open source application that allows for the detection and exploitation of SQL injection vulnerabilities in database servers using structured query language. The tool can also be used to automate attacks, as well.*
 
@@ -26,7 +26,7 @@ brew install sqlmap
 ```
 
 ## **Zed Attack Proxy (ZAP)**
-###### 
+###### https://www.zaproxy.org
 
 *Another open source security scanner, OWASP's ZAP tool is used to test a web application's security though a multitude of tools, including a proxy server to capture encrypted and unencrypted traffic, Fuzzer, and much more.*
 
@@ -34,15 +34,26 @@ brew install sqlmap
 brew install caskroom/cask/brew-caskbrew cask install owasp-zap
 ```
 
-Recon-ng
-This reconnaissance framework is designed to conduct open source information gathering that leverages community-supported modules that provide additional resources to search, such as social media networks, using powerful (and secure) API tools. The data obtained can then be leveraged in other complementary tools to test vulnerabilities or exploit them.
+## **Recon-ng**
+###### https://github.com/lanmaster53/recon-ng
 
+*This reconnaissance framework is designed to conduct open source information gathering that leverages community-supported modules that provide additional resources to search, such as social media networks, using powerful (and secure) API tools. The data obtained can then be leveraged in other complementary tools to test vulnerabilities or exploit them.*
+
+```
 brew install recon-ng
+```
 
-The Harvester
-The Harvester is an information-gathering application that serves to use publicly available information and databases to obtain information, including domains, hostnames, emails, employee directory info--anything that establishes putting together a holistic picture of the target.
+## **The Harvester**
+###### https://github.com/laramies/theHarvester
+###### https://tools.kali.org/information-gathering/theharvester
 
+*The Harvester is an information-gathering application that serves to use publicly available information and databases to obtain information, including domains, 
+hostnames, emails, employee directory info--anything that establishes putting together a holistic picture of the target.*
+
+```
 brew install theharvester
+```
+
 TestSSL
 This scanner works as both an information-gathering tool that assess which security protocols and ciphers are being used on a server, including their configurations and which ports the service(s) are running on. 
 
