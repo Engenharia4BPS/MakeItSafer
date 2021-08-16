@@ -1,5 +1,5 @@
-## **Nmap**
-*Nmap é um utilitário de descoberta de rede e varredura de portas que permite a identificação e impressão digital de dispositivos em redes, usando um grande número de sintaxes para auxiliar na detecção de serviços e portas abertas.*
+# **Nmap**
+*Nmap e um utilitario de descoberta de rede e varredura de portas que permite a identificacao e impressao digital de dispositivos em redes, usando um grande numero de sintaxes para auxiliar na deteccao de servicos e portas abertas.*
 
 **Exemplos de uso:**
 
@@ -51,11 +51,11 @@ nmap -o 192.168.100.1
 
 **5. Inventario de todas as maquinas da rede:**
   - -O (Habilita a deteccao de SO)
-  - -T <Paranoid|Sneaky|Polite|Normal|Aggressive|Insane> (Estabelece um padrão de temporização)
-  - -oA <nome-base> (Saída para todos os formato)
+  - -T <Paranoid|Sneaky|Polite|Normal|Aggressive|Insane> (Estabelece um padrao de temporizacao)
+  - -oA <nome-base> (Saida para todos os formato)
 
 **Comando:**
-````
+```
 nmap -sS -O -T3 -oA invent 192.168.100.0/24
 ```
 
@@ -65,9 +65,8 @@ nmap -sS -O -T3 -oA invent 192.168.100.0/24
 ```
 brew install nmap
 ```
+
 **Referencias**
 - :bookmark:  https://nmap.org
 - :bookmark:  https://nmap.org/man/pt_BR/index.html
 - :bookmark:  https://pplware.sapo.pt/tutoriais/nmap-5-exemplos-de-como-usar-este-poderoso-scanner-de-rede/
-
-
