@@ -43,7 +43,7 @@
   - *Habilita a detecao de SO, como discutido acima. Alternativamente, voce pode usar -A para habilitar tanto a deteccao de SO quanto a deteccao de versao.*
 
 **Comando:**
-````
+```
 nmap -o 192.168.100.1
 ```
 
