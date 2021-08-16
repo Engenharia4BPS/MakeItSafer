@@ -70,7 +70,7 @@ Aqui, basta remover os # das duas ultimas linhas (visto que a primeira e um come
 
 Concluido essas configuracoes, ao realizar um scan com Nikto, basta apenas definir a opcao -useproxy, sem nenhum parametro para que todo o trafego gerado pelo Nikto passe pela rede Tor, mantendo assim o seu anonimato.
 
-````
+```
 nikto -h https://website.com:8081 -useproxy
 ```
 
