@@ -38,8 +38,28 @@
   
 -----------------------------------
 
-  4. Saber o sistema operacional de uma determinada máquina: `nmap -o 192.168.100.1`
-  5. Inventário de todas as máquinas da rede: `nmap -sS -O -T3 -oA invent 192.168.100.0/24`
+**4. Saber o sistema operacional de uma determinada maquina:**
+  - -O (Habilita a deteccao de SO)
+  - *Habilita a detecao de SO, como discutido acima. Alternativamente, voce pode usar -A para habilitar tanto a deteccao de SO quanto a deteccao de versao.*
+
+**Comando:**
+````
+nmap -o 192.168.100.1
+```
+
+-----------------------------------
+
+**5. Inventario de todas as maquinas da rede:**
+  - -O (Habilita a deteccao de SO)
+  - -T <Paranoid|Sneaky|Polite|Normal|Aggressive|Insane> (Estabelece um padrão de temporização)
+  - -oA <nome-base> (Saída para todos os formato)
+
+**Comando:**
+````
+nmap -sS -O -T3 -oA invent 192.168.100.0/24
+```
+
+-----------------------------------
 
 **Instalar no OSX**
 ```
