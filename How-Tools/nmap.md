@@ -1,5 +1,5 @@
-# **Nmap**
-*Nmap e um utilitario de descoberta de rede e varredura de portas que permite a identificacao e impressao digital de dispositivos em redes, usando um grande numero de sintaxes para auxiliar na deteccao de servicos e portas abertas.*
+# **NMAP**
+*NMAP e um utilitario de descoberta de rede e varredura de portas que permite a identificacao e impressao digital de dispositivos em redes, usando um grande numero de sintaxes para auxiliar na deteccao de servicos e portas abertas.*
 
 **Exemplos de uso:**
 
